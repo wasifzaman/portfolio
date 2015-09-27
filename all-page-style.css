@@ -1,0 +1,36 @@
+html,body {
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	background-color: #1e1c1c;
+}
+
+.container {
+	max-width: 970px;
+}
+
+.header {
+	background-color: #332d2d;
+}
+
+.header ul {
+	float: right;
+}
+
+.header li {
+	display: inline-block;
+	margin: 0;
+}
+
+.active {
+	background-color: #ff2d2d;
+}
+
+.header ul.nav li a:hover {
+	background-color: #ff2d2d;
+}
+
+.header a {
+	color: #fff;
+	transition: all 0.2s ease-out;
+}
