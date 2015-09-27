@@ -1,4 +1,36 @@
-p {
-	color: blue;
-	font-size: 25px;
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #332d2d;
+}
+
+.header ul {
+	float: right;
+}
+
+.header li {
+	display: inline-block;
+	margin: 0;
+}
+
+.active {
+	background-color: #ff2d2d;
+}
+
+.header ul.nav li a:hover {
+	background-color: #ff2d2d;
+}
+
+.header a {
+	color: #fff;
+}
+
+@media (max-width: 600px) {
+	.header li {
+		text-align: center;
+		width: 100%;
+	}
 }
