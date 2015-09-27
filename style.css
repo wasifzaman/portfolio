@@ -34,3 +34,21 @@ html,body {
 		width: 100%;
 	}
 }
+
+.main {
+	background: url(cover2.JPG) no-repeat center center;
+	background-size: cover;
+	height: 250px;
+	text-align: center;
+}
+
+.main {
+	color: #fff;
+}
+
+.main .container {
+	padding-top: 70px;
+}
+.main img {
+	float: right;
+}
