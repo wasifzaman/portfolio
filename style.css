@@ -1,6 +1,11 @@
 html,body {
+	font-weight: 300;
 	margin: 0;
 	padding: 0;
+}
+
+.container {
+	max-width: 970px;
 }
 
 .header {
@@ -26,29 +31,52 @@ html,body {
 
 .header a {
 	color: #fff;
+	transition: all 0.2s ease-out;
 }
+
+.main {
+	background: url(images/cover2.JPG) no-repeat center center;
+	background-size: cover;
+	/*background: url(footer_lodyas.png) repeat;*/
+	height: 250px;
+	padding-top: 70px;
+	text-align: center;
+	color: #fff;
+}
+
+.supporting {
+	background-color: #000;
+	padding: 60px 0 40px;
+}
+
+.thumbnail {
+	border: none;
+	background: transparent;
+}
+
+.footer {
+	background: #1e1c1c;
+	height: 150px;
+	color: #fff;
+	padding: 40px 0;
+	font-size: 12px;
+}
+
+.footer img {
+	width: 30px;
+}
+
+
+
+
 
 @media (max-width: 600px) {
 	.header li {
 		text-align: center;
 		width: 100%;
 	}
-}
 
-.main {
-	background: url(cover2.JPG) no-repeat center center;
-	background-size: cover;
-	height: 250px;
-	text-align: center;
-}
-
-.main {
-	color: #fff;
-}
-
-.main .container {
-	padding-top: 70px;
-}
-.main img {
-	float: right;
+	.header ul {
+		float: none;
+	}
 }
