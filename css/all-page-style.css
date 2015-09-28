@@ -34,3 +34,32 @@ html,body {
 	color: #fff;
 	transition: all 0.2s ease-out;
 }
+
+.supporting {
+	background-color: #000;
+	padding: 60px 0 40px;
+}
+
+.footer {
+	background: #1e1c1c;
+	height: 150px;
+	color: #fff;
+	padding: 40px 0;
+	font-size: 12px;
+}
+
+.footer img {
+	width: 30px;
+}
+
+
+@media (max-width: 600px) {
+	.header li {
+		text-align: center;
+		width: 100%;
+	}
+
+	.header ul {
+		float: none;
+	}
+}
