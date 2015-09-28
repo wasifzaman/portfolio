@@ -22,7 +22,7 @@ html,body {
 	margin: 0;
 }
 
-.active {
+.header .active {
 	background-color: #ff2d2d;
 }
 
@@ -46,6 +46,7 @@ html,body {
 	color: #fff;
 	padding: 40px 0;
 	font-size: 12px;
+	margin-bottom: 40px;
 }
 
 .footer img {
